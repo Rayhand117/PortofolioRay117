@@ -1,0 +1,79 @@
+.fleks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ok {
+    padding: 50px;
+}
+.leftBlue {
+    background: linear-gradient(90deg, #3FC1C9 50%, #FC5185 50%);
+}
+.leftPink {
+    background: linear-gradient(90deg, #FC5185 50%, #3FC1C9 50%);
+}
+h1 {
+    background: linear-gradient(90deg, #3FC1C9 50%, #FC5185 50%);
+    font-size: 70px;
+}
+.clips {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.profil {
+    margin: 20px 0;
+    padding: 30px;
+    background: linear-gradient(90deg, #3FC1C9 50%, #FC5185 50%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(0.5px);
+    border-radius: 5px;
+}
+.profil p {
+    background: linear-gradient(90deg, #FC5185 50%, #3FC1C9 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+.profilPict {
+    box-shadow: 5px 0px 31px -1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+.boxShadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.block1 {
+    background-color: black;
+    width: 144px;
+    height: 14px;
+    filter: blur(0.5px);
+    border-radius: 10px;
+}
+.block2 {
+    margin-top: 12.5px;
+    width: 104px;
+    height: 14px;
+    background: linear-gradient(90deg, #364F6B 50%, #F5F5F5 50%);
+    filter: blur(1px);
+    border-radius: 10px;
+}
+.block3 {
+    margin-top: 12.5px;
+    width: 64px;
+    height: 14px;
+    filter: blur(1.5px);
+    border-radius: 10px;
+}
+.notFinal {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
